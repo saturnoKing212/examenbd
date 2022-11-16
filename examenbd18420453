@@ -1,7 +1,7 @@
-
 from crudmysql import MySQL
 from env import variables
 from caja import Password
+import json
 
 RUTA = "C:/Users/Alexis/PycharmProjects/Unidad3_2/"
 
@@ -136,7 +136,8 @@ def promestudiante(control):
               "materia":cal[2]
 
         }
-        print(alum)
+        alumno = json.dumps(alum)
+        print(alumno)
 
 
     obj_MySQL.desconectar_mysql()
