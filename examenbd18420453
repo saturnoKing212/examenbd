@@ -171,6 +171,7 @@ def menu():
         print("4. Consulta general de estudiantes")
         print("5. Eliminar a un estudiante ")
         print("6. Salir ")
+        print("7. examen promedio alumno")
         print("promedio del estudiante")
         print("Dame la opcion que deseas? ")
         try:
